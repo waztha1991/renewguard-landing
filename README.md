@@ -1,5 +1,7 @@
 # RenewGuard Landing Page
 
+> **Note:** currently configured to deploy as `renewguard-landing-dev` on the free `*.workers.dev` subdomain, separate from any existing production deployment.
+
 AntSolutions marketing site (static HTML/CSS/JS), split out from the main
 RenewGuard monorepo for independent deployment.
 
