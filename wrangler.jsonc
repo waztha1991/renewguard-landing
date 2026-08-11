@@ -2,7 +2,7 @@
   "name": "renewguard-landing-dev",
   "compatibility_date": "2026-06-01",
   "assets": {
-    "directory": "./",
+    "directory": "./public",
     "not_found_handling": "404-page"
   }
 }
