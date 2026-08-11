@@ -1,11 +1,11 @@
-/* AntSolutions marketing — sunrise coral/amber/teal, built for a motor-insurance renewal product */
+/* AntSolutions marketing — vivid green/teal, built for a motor-insurance renewal product */
 :root {
   --ink: #17123f;
   --ink-soft: #322a63;
-  --coral: #ff5a4e;
-  --coral-deep: #e4402f;
-  --amber: #ffb100;
-  --amber-soft: #ffd873;
+  --green: #12a150;
+  --green-deep: #0b7a3e;
+  --green-light: #34c77a;
+  --green-soft: #a7e8c4;
   --teal: #0ea8a0;
   --teal-deep: #087f79;
   --cream: #fff6ec;
@@ -17,9 +17,9 @@
   --line: rgba(23, 18, 63, 0.12);
   --hero-gradient: linear-gradient(
     120deg,
-    rgba(228, 64, 47, 0.88) 0%,
-    rgba(255, 90, 78, 0.8) 32%,
-    rgba(255, 177, 0, 0.55) 68%,
+    rgba(11, 122, 62, 0.88) 0%,
+    rgba(18, 161, 80, 0.8) 32%,
+    rgba(52, 199, 122, 0.5) 68%,
     rgba(14, 168, 160, 0.55) 100%
   );
   --font-display: "Sora", sans-serif;
@@ -64,7 +64,7 @@ a {
 }
 
 a:hover {
-  color: var(--coral-deep);
+  color: var(--green-deep);
 }
 
 .skip-link {
@@ -113,7 +113,7 @@ a:hover {
 }
 
 .logo:hover {
-  color: var(--coral-deep);
+  color: var(--green-deep);
 }
 
 .site-nav {
@@ -130,19 +130,19 @@ a:hover {
 }
 
 .site-nav a:hover {
-  color: var(--coral-deep);
+  color: var(--green-deep);
 }
 
 .nav-cta {
   padding: 0.5rem 1rem;
   border-radius: 999px;
-  background: var(--coral);
+  background: var(--green);
   color: var(--white) !important;
   transition: background 0.25s var(--ease), transform 0.25s var(--ease);
 }
 
 .nav-cta:hover {
-  background: var(--coral-deep);
+  background: var(--green-deep);
   transform: translateY(-1px);
 }
 
@@ -228,7 +228,7 @@ a:hover {
   font-size: clamp(1.45rem, 3.2vw, 2.15rem);
   line-height: 1.2;
   letter-spacing: -0.03em;
-  color: var(--amber-soft);
+  color: var(--green-soft);
   opacity: 0;
   animation: hero-rise 0.9s var(--ease) 0.32s forwards;
 }
@@ -293,12 +293,12 @@ a:hover {
 
 .btn-primary {
   background: var(--white);
-  color: var(--coral-deep);
+  color: var(--green-deep);
   box-shadow: 0 10px 24px -8px rgba(228, 64, 47, 0.55);
 }
 
 .btn-primary:hover {
-  background: var(--amber-soft);
+  background: var(--green-soft);
   color: var(--ink);
 }
 
@@ -349,7 +349,7 @@ a:hover {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--coral-deep);
+  color: var(--green-deep);
 }
 
 .section-title {
@@ -402,7 +402,7 @@ a:hover {
   font-size: 0.82rem;
   letter-spacing: 0.02em;
   color: var(--white);
-  background: var(--coral);
+  background: var(--green);
   white-space: nowrap;
 }
 
@@ -465,12 +465,12 @@ a:hover {
   font-size: 0.95rem;
   color: var(--teal-deep);
   text-decoration: none;
-  border-bottom: 2px solid var(--amber);
+  border-bottom: 2px solid var(--green-light);
 }
 
 .text-link:hover {
-  color: var(--coral-deep);
-  border-color: var(--coral);
+  color: var(--green-deep);
+  border-color: var(--green);
 }
 
 /* Photo frames — shared colorful treatment for supporting imagery */
@@ -491,7 +491,7 @@ a:hover {
 }
 
 .android .eyebrow {
-  color: var(--amber-soft);
+  color: var(--green-soft);
 }
 
 .android .section-title {
@@ -523,11 +523,11 @@ a:hover {
 }
 
 .android .plain-list a {
-  color: var(--amber-soft);
+  color: var(--green-soft);
 }
 
 .android .plain-list a:hover {
-  color: var(--coral);
+  color: var(--green);
 }
 
 .android-visual {
@@ -556,7 +556,7 @@ a:hover {
 }
 
 .features .eyebrow {
-  color: var(--coral-deep);
+  color: var(--green-deep);
 }
 
 .features .section-title {
@@ -644,11 +644,11 @@ a:hover {
 }
 
 .feature-list a:hover {
-  color: var(--coral-deep);
+  color: var(--green-deep);
 }
 
 .feature-list strong {
-  color: var(--coral-deep);
+  color: var(--green-deep);
   font-weight: 700;
 }
 
@@ -700,11 +700,11 @@ a:hover {
   width: 0.6rem;
   height: 0.6rem;
   border-radius: 999px;
-  background: var(--coral);
+  background: var(--green);
 }
 
 .pricing {
-  background: linear-gradient(135deg, var(--coral-deep) 0%, var(--coral) 45%, var(--amber) 100%);
+  background: linear-gradient(135deg, var(--green-deep) 0%, var(--green) 45%, var(--teal) 100%);
   color: var(--white);
 }
 
@@ -804,13 +804,13 @@ a:hover {
 .contact-block a {
   color: var(--ink);
   text-decoration: none;
-  border-bottom: 2px solid var(--amber);
+  border-bottom: 2px solid var(--green-light);
   transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
 }
 
 .contact-block a:hover {
-  color: var(--coral-deep);
-  border-color: var(--coral);
+  color: var(--green-deep);
+  border-color: var(--green);
 }
 
 .contact-block .note {
@@ -861,7 +861,7 @@ a:hover {
 }
 
 .footer-nav a:hover {
-  color: var(--amber-soft);
+  color: var(--green-soft);
 }
 
 .footer-copy {
